@@ -1,0 +1,167 @@
+[
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-HTML",
+            "path": "1,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 940,
+              "left": 0,
+              "right": 1350,
+              "width": 1350,
+              "height": 940
+            },
+            "snippet": "<html>",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "TTv5",
+          "TT11.a",
+          "EN-301-549",
+          "EN-9.3.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more about the `tabindex` attribute](https://dequeuniversity.com/rules/axe/4.10/tabindex).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,3,FORM,2,DIV,1,DIV,0,INPUT",
+            "selector": "form#loginForm > div.field > div.ui > input#usernameUserInput",
+            "boundingRect": {
+              "top": 252,
+              "bottom": 290,
+              "left": 139,
+              "right": 626,
+              "width": 487,
+              "height": 38
+            },
+            "snippet": "<input class=\"text-right-baseline\" type=\"text\" id=\"usernameUserInput\" value=\"\" name=\"usernameUserInput\" tabindex=\"1\" placeholder=\"ex: S########\" oninput=\"this.value = this.value.toUpperCase()\" maxlength=\"9\">",
+            "nodeLabel": "form#loginForm > div.field > div.ui > input#usernameUserInput",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,3,FORM,3,DIV,1,DIV,0,INPUT",
+            "selector": "form#loginForm > div.field > div.ui > input#password",
+            "boundingRect": {
+              "top": 327,
+              "bottom": 365,
+              "left": 139,
+              "right": 626,
+              "width": 487,
+              "height": 38
+            },
+            "snippet": "<input class=\"text-right-baseline\" type=\"password\" id=\"password\" name=\"password\" value=\"\" autocomplete=\"off\" tabindex=\"2\" placeholder=\"Password\">",
+            "nodeLabel": "form#loginForm > div.field > div.ui > input#password",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,3,FORM,11,DIV,2,BUTTON",
+            "selector": "div.segment-form > form#loginForm > div.ui > button.ui",
+            "boundingRect": {
+              "top": 381,
+              "bottom": 420,
+              "left": 139,
+              "right": 622,
+              "width": 483,
+              "height": 39
+            },
+            "snippet": "<button type=\"submit\" class=\"ui primary large button col-xs-12 font-extra-large\" tabindex=\"4\" role=\"button\">",
+            "nodeLabel": "SIGN IN",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,1,DIV,2,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,3,FORM,13,DIV,0,P,0,A",
+            "selector": "form#loginForm > div.form-actions > p > a",
+            "boundingRect": {
+              "top": 444,
+              "bottom": 465,
+              "left": 276,
+              "right": 489,
+              "width": 212,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://cdn.cccs.edu/landing-pages/ethos-identity/login-help.html\" target=\"_blank\" tabindex=\"4\">",
+            "nodeLabel": "Need help with your login?",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

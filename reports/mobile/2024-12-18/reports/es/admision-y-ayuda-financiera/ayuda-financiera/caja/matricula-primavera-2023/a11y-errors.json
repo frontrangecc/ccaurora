@@ -1,0 +1,583 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-H3",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,1,HEADER,0,DIV,2,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.hero-interior__content > div.hero-interior__content-left > div.hero-interior__content-description > h3",
+            "boundingRect": {
+              "top": 463,
+              "bottom": 619,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 156
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Descargo de responsabilidad financiera",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-H4",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,12,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div > div.link-group__links-custom > div.link-group__title > h4.text--h4",
+            "boundingRect": {
+              "top": 3960,
+              "bottom": 4012,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 52
+            },
+            "snippet": "<h4 class=\"text--h4\">",
+            "nodeLabel": "ENLACES IMPORTANTES SOBRE AYUDA FINANCIERA",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-H5",
+            "path": "1,HTML,1,BODY,7,FOOTER,2,DIV,1,SECTION,0,DIV,0,ADDRESS,0,H5",
+            "selector": "section.footer__middle > div.footer__middle-address > address > h5.footer__middle-address--name",
+            "boundingRect": {
+              "top": 4727,
+              "bottom": 4753,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 26
+            },
+            "snippet": "<h5 class=\"footer__middle-address--name text--h4\">",
+            "nodeLabel": "CENTRETECH CAMPUS",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "image-redundant-alt",
+    "title": "Image elements have `[alt]` attributes that are redundant text.",
+    "description": "Informative elements should aim for short, descriptive alternative text. Alternative text that is exactly the same as the text adjacent to the link or image is potentially confusing for screen reader users, because the text will be read twice. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-IMG",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,A,1,IMG",
+            "selector": "div.header__container > div.header__bar > a.header__bar-logo > img",
+            "boundingRect": {
+              "top": 23,
+              "bottom": 94,
+              "left": 20,
+              "right": 224,
+              "width": 204,
+              "height": 71
+            },
+            "snippet": "<img src=\"https://ccaurora.edu/wp-content/uploads/2024/05/CCA-Main-Page-Logo-Standar…\" alt=\"Community College of Aurora\">",
+            "nodeLabel": "Community College of Aurora",
+            "explanation": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "minor",
+        "tags": [
+          "cat.text-alternatives",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,2,DIV,1,DIV,0,A",
+            "selector": "div.header__bar > div.header__bar-button-container > div.header__bar-button-number > a.header__bar-button",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 39,
+              "left": 262,
+              "right": 389,
+              "width": 127,
+              "height": 21
+            },
+            "snippet": "<a href=\"tel:303-360-4700\" class=\"header__bar-button\" aria-label=\"Contact Us Phone Number\">",
+            "nodeLabel": "Contact Us: 303-360-4700\n303-360-4700",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,1,HEADER,0,DIV,2,DIV,1,ASIDE,0,DIV,0,NAV,1,DIV,0,UL,1,LI,0,A",
+            "selector": "div.link-group__links > ul.link-group__links-button > li.link-group__links-button--item > a.button--link-group-button",
+            "boundingRect": {
+              "top": 1303,
+              "bottom": 1356,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 53
+            },
+            "snippet": "<a class=\"button--link-group-button\" href=\"https://ccaurora.edu/es/visita-virtual-de-cca/\" target=\"_blank\" aria-label=\"Visita (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Visita \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,12,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,0,LI,0,A",
+            "selector": "div > ul.link-group__links > li.link-group__links-content_sm--item > a.button--link-group-content_sm",
+            "boundingRect": {
+              "top": 4039,
+              "bottom": 4089,
+              "left": 20,
+              "right": 330,
+              "width": 310,
+              "height": 50
+            },
+            "snippet": "<a class=\"button--link-group-content_sm\" href=\"https://bit.ly/3j3C1mh\" target=\"_blank\" aria-label=\"Entregando el FAFSA (Utilice nuestro código de centro: 016058) (opens in a…\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Entregando el FAFSA (Utilice nuestro código de centro: 016058) \n(opens in a new…",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,12,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI,0,A",
+            "selector": "div > ul.link-group__links > li.link-group__links-content_sm--item > a.button--link-group-content_sm",
+            "boundingRect": {
+              "top": 4118,
+              "bottom": 4168,
+              "left": 20,
+              "right": 289,
+              "width": 269,
+              "height": 50
+            },
+            "snippet": "<a class=\"button--link-group-content_sm\" href=\"https://bit.ly/3WPOjfW)\" target=\"_blank\" aria-label=\"Fechas Importantes de la Ayuda Financiera (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Fechas Importantes de la Ayuda Financiera \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,12,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,UL,5,LI,0,A",
+            "selector": "div > ul.link-group__links > li.link-group__links-content_sm--item > a.button--link-group-content_sm",
+            "boundingRect": {
+              "top": 4353,
+              "bottom": 4376,
+              "left": 20,
+              "right": 219,
+              "width": 199,
+              "height": 23
+            },
+            "snippet": "<a class=\"button--link-group-content_sm\" href=\"https://bit.ly/3wxaQ6a)\" target=\"_blank\" aria-label=\"Entregando el CASFA (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Entregando el CASFA \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,7,FOOTER,2,DIV,1,SECTION,0,DIV,0,ADDRESS,1,P,0,A",
+            "selector": "div.footer__middle-address > address > p.footer__middle-address--location > a.button--links",
+            "boundingRect": {
+              "top": 4761,
+              "bottom": 4807,
+              "left": 97,
+              "right": 315,
+              "width": 218,
+              "height": 46
+            },
+            "snippet": "<a class=\"button--links\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.google.com/maps/search/?api=1&amp;query=16000%20E.%20CentreTech%20…\" aria-label=\"\n              \n              16000 E. CentreTech Pkwy\nAurora, CO 80011\n  …\">",
+            "nodeLabel": "16000 E. CentreTech Pkwy\nAurora, CO 80011 \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,7,FOOTER,2,DIV,1,SECTION,0,DIV,1,ADDRESS,1,P,0,A",
+            "selector": "div.footer__middle-address > address > p.footer__middle-address--location > a.button--links",
+            "boundingRect": {
+              "top": 4911,
+              "bottom": 4958,
+              "left": 120,
+              "right": 292,
+              "width": 171,
+              "height": 46
+            },
+            "snippet": "<a class=\"button--links\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.google.com/maps/search/?api=1&amp;query=710%20Alton%20Way%0D%0ADen…\" aria-label=\"\n              \n              710 Alton Way\nDenver, CO 80230\n             …\">",
+            "nodeLabel": "710 Alton Way\nDenver, CO 80230 \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,7,FOOTER,2,DIV,2,SECTION,1,DIV,0,NAV,0,UL,2,LI,0,A",
+            "selector": "nav > ul > li > a.button--links",
+            "boundingRect": {
+              "top": 5162,
+              "bottom": 5185,
+              "left": 20,
+              "right": 101,
+              "width": 81,
+              "height": 23
+            },
+            "snippet": "<a class=\"button--links\" href=\"https://bannercas.cccs.edu/authenticationendpoint/login.do?Name=PreLoginRe…\" target=\"_blank\" aria-label=\"\n                Banner\n               (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Banner \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,7,FOOTER,2,DIV,2,SECTION,1,DIV,0,NAV,0,UL,6,LI,0,A",
+            "selector": "nav > ul > li > a.button--links",
+            "boundingRect": {
+              "top": 5434,
+              "bottom": 5457,
+              "left": 20,
+              "right": 153,
+              "width": 133,
+              "height": 23
+            },
+            "snippet": "<a class=\"button--links\" href=\"https://myportal.cccs.edu/CCA\" target=\"_blank\" aria-label=\"\n                Inicio MyCCA\n               (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Inicio MyCCA \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,7,FOOTER,2,DIV,2,SECTION,1,DIV,0,NAV,0,UL,10,LI,0,A",
+            "selector": "nav > ul > li > a.button--links",
+            "boundingRect": {
+              "top": 5706,
+              "bottom": 5729,
+              "left": 20,
+              "right": 385,
+              "width": 365,
+              "height": 23
+            },
+            "snippet": "<a class=\"button--links\" href=\"https://www.wrike.com/form/eyJhY2NvdW50SWQiOjU5MTMxOTcsInRhc2tGb3JtSWQiOjk…\" target=\"_blank\" aria-label=\"\n                Envíos de comentarios sobre el sitio web\n               (…\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Envíos de comentarios sobre el sitio web \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,7,FOOTER,3,SECTION,0,DIV,0,NAV,2,UL,0,LI,0,A",
+            "selector": "nav.copyright__nav > ul > li > a.button--links",
+            "boundingRect": {
+              "top": 6135,
+              "bottom": 6147,
+              "left": 116,
+              "right": 296,
+              "width": 180,
+              "height": 13
+            },
+            "snippet": "<a class=\"button--links\" style=\"font-size:10px;color:#B84954;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fireantstudio.com/\" aria-label=\"Site Design by FIREANT STUDIO (opens in a new window)\">",
+            "nodeLabel": "Site Design by FIREANT STUDIO \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 11
+  },
+  {
+    "id": "td-has-header",
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-TABLE",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,4,FIGURE,0,TABLE",
+            "selector": "main.main > div.page-wrapper > figure.wp-block-table > table",
+            "boundingRect": {
+              "top": 1604,
+              "bottom": 2520,
+              "left": 20,
+              "right": 546,
+              "width": 526,
+              "height": 915
+            },
+            "snippet": "<table>",
+            "nodeLabel": "Horas de crédito\tMatrícula\tTarifas\tTotal\tMenos Estipendio COF\tSaldo Pendiente D…",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-TD",
+                  "path": "1,HTML,1,BODY,6,MAIN,0,DIV,4,FIGURE,0,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1605,
+                    "bottom": 1738,
+                    "left": 21,
+                    "right": 92,
+                    "width": 72,
+                    "height": 133
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "Horas de crédito"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-17-TD",
+                  "path": "1,HTML,1,BODY,6,MAIN,0,DIV,4,FIGURE,0,TABLE,0,TBODY,0,TR,1,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1605,
+                    "bottom": 1738,
+                    "left": 92,
+                    "right": 181,
+                    "width": 89,
+                    "height": 133
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "Matrícula"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-TD",
+                  "path": "1,HTML,1,BODY,6,MAIN,0,DIV,4,FIGURE,0,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1605,
+                    "bottom": 1738,
+                    "left": 181,
+                    "right": 266,
+                    "width": 85,
+                    "height": 133
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "Tarifas"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-TABLE",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,6,FIGURE,0,TABLE",
+            "selector": "main.main > div.page-wrapper > figure.wp-block-table > table",
+            "boundingRect": {
+              "top": 2603,
+              "bottom": 3451,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 848
+            },
+            "snippet": "<table>",
+            "nodeLabel": "Horas de crédito\tMatrícula\tTarifas\tTotal\n1\t$641.80\t$73.24\t$715.04\n2\t$1,283.60\t$…",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-20-TD",
+                  "path": "1,HTML,1,BODY,6,MAIN,0,DIV,6,FIGURE,0,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2603,
+                    "bottom": 2669,
+                    "left": 21,
+                    "right": 131,
+                    "width": 111,
+                    "height": 66
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "Horas de crédito"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-TD",
+                  "path": "1,HTML,1,BODY,6,MAIN,0,DIV,6,FIGURE,0,TABLE,0,TBODY,0,TR,1,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2603,
+                    "bottom": 2669,
+                    "left": 131,
+                    "right": 225,
+                    "width": 93,
+                    "height": 66
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "Matrícula"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-22-TD",
+                  "path": "1,HTML,1,BODY,6,MAIN,0,DIV,6,FIGURE,0,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2603,
+                    "bottom": 2669,
+                    "left": 225,
+                    "right": 298,
+                    "width": 74,
+                    "height": 66
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "Tarifas"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.tables",
+          "experimental",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g",
+          "TTv5",
+          "TT14.b",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
