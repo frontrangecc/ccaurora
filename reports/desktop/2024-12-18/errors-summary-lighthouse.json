@@ -1,1 +1,14 @@
-{}
+{
+  "label-content-name-mismatch": 1226,
+  "heading-order": 207,
+  "image-redundant-alt": 115,
+  "image-alt": 14,
+  "tabindex": 8,
+  "link-name": 5,
+  "frame-title": 2,
+  "html-has-lang": 2,
+  "aria-prohibited-attr": 2,
+  "td-has-header": 2,
+  "target-size": 1,
+  "select-name": 1
+}
