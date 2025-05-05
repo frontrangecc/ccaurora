@@ -1,0 +1,930 @@
+[
+  {
+    "path": "/",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/404-page/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/",
+    "score": 0.81,
+    "performance": 0.69,
+    "accessibility": 0.98,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/40th-anniversary-celebration/message-from-the-president/",
+    "score": 0.8,
+    "performance": 0.62,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/accreditation/assessment-college-data/",
+    "score": 0.82,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/accreditation/heerf-reporting/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/alumni/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/alumni/alumni-update-your-information/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/campus-locations/administrative-office-hours/",
+    "score": 0.79,
+    "performance": 0.58,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/campus-locations/centretech-campus/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/campus-locations/lowry-campus/",
+    "score": 0.77,
+    "performance": 0.52,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/campus-safety-security/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/campus-safety-security/annual-security-report/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/campus-safety-security/lost-found/",
+    "score": 0.82,
+    "performance": 0.69,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/campus-safety-security/report-an-incident-concern/student-complaint-process-for-academic-affairs/",
+    "score": 0.77,
+    "performance": 0.51,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/careers-at-cca/",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/careers-at-cca/employee-affinity-group-page/",
+    "score": 0.77,
+    "performance": 0.51,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/careers-at-cca/human-resources/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/",
+    "score": 0.8,
+    "performance": 0.63,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/cca-cultural-center/",
+    "score": 0.79,
+    "performance": 0.59,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/dei-division/",
+    "score": 0.8,
+    "performance": 0.62,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/diversity-equity-inclusion-task-forces-and-councils/",
+    "score": 0.81,
+    "performance": 0.64,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/hispanic-serving-institution/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/inclusive-spaces/",
+    "score": 0.79,
+    "performance": 0.58,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/the-office-of-disability-and-equity/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/title-v/",
+    "score": 0.82,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/diversity-equity-inclusion/trio/",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/leadership/",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/leadership/angela-marquez/",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/leadership/bobby-pace/",
+    "score": 0.77,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/leadership/cindy-hesse/",
+    "score": 0.76,
+    "performance": 0.61,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/leadership/erica-hines/",
+    "score": 0.76,
+    "performance": 0.65,
+    "accessibility": 0.92,
+    "best-practices": 0.71,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/leadership/kathryn-skulley/",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/leadership/lynne-winchell/",
+    "score": 0.77,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/leadership/mordecai-ian-brownlee/",
+    "score": 0.8,
+    "performance": 0.64,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/leadership/mordecai-ian-brownlee/request-a-meeting-with-president-brownlee/",
+    "score": 0.8,
+    "performance": 0.63,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/leadership/mordecai-ian-brownlee/request-a-speaking-engagement-with-president-brownlee/",
+    "score": 0.79,
+    "performance": 0.59,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/leadership/reyna-anaya/",
+    "score": 0.77,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about-cca/mission/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/request-information/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/strategic-plan/",
+    "score": 0.8,
+    "performance": 0.63,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-cca/strategic-plan/annual-reports/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/academia-de-mines-en-cca/",
+    "score": 0.78,
+    "performance": 0.55,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/academic-calendar/",
+    "score": 0.71,
+    "performance": 0.44,
+    "accessibility": 0.98,
+    "best-practices": 0.57,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/academic-leadership/",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/colorado-online/",
+    "score": 0.82,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/concurrent-enrollment/",
+    "score": 0.8,
+    "performance": 0.66,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/degrees-certificates/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/getting-started/",
+    "score": 0.8,
+    "performance": 0.6,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/getting-started/kiosk/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/tutoring-and-academic-support/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/tutoring-and-academic-support/academic-learning-center/",
+    "score": 0.78,
+    "performance": 0.53,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/tutoring-and-academic-support/library/",
+    "score": 0.8,
+    "performance": 0.57,
+    "accessibility": 0.95,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/academics/tutoring-and-academic-support/library/interlibrary-loan-request/",
+    "score": 0.75,
+    "performance": 0.52,
+    "accessibility": 1,
+    "best-practices": 0.57,
+    "seo": 0.91
+  },
+  {
+    "path": "/academics/workforce-training/business/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/workforce-training/construction-and-trades/",
+    "score": 0.79,
+    "performance": 0.58,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/workforce-training/education/",
+    "score": 0.79,
+    "performance": 0.57,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/workforce-training/financial-education-microcredential/",
+    "score": 0.78,
+    "performance": 0.53,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/workforce-training/healthcare/",
+    "score": 0.79,
+    "performance": 0.58,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/workforce-training/hobbies-and-interests/",
+    "score": 0.79,
+    "performance": 0.57,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics/workforce-training/it/",
+    "score": 0.79,
+    "performance": 0.57,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/accordion/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/advising/",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/admission-aid/financial-aid/",
+    "score": 0.78,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/admission-aid/financial-aid/asset-daca-students/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/compliance-policies/",
+    "score": 0.82,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/financial-literacy/",
+    "score": 0.78,
+    "performance": 0.55,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/getting-financial-aid/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/net-calculator/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/office-of-the-cashier/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/office-of-the-cashier/tuition-and-fees/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/opportunity-next-colorado/",
+    "score": 0.8,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/scholarships/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/scholarships/finish-strong-merit-scholarship/",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.98,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/financial-aid/scholarships/institutional-scholarships/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/",
+    "score": 0.81,
+    "performance": 0.64,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/2022-2023-advance-scholarship/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/2022-2023-pell-grant-lifetime-maximum-approaching-pelcls/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/2022-2023-plus-loan-application/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/2022-2023-statement-of-income-dependent-lidodd/",
+    "score": 0.82,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/2022-2023-title-iv-authorization-tiv/",
+    "score": 0.82,
+    "performance": 0.69,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/2023-2024-dependent-student-parent-marital-tax-filing-status-tfpevn/",
+    "score": 0.82,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/2023-2024-statement-of-income-dependent-lidevn/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/forms/2023-2024-title-iv-authorization-tiv/",
+    "score": 0.76,
+    "performance": 0.56,
+    "accessibility": 1,
+    "best-practices": 0.57,
+    "seo": 0.91
+  },
+  {
+    "path": "/admission-aid/important-student-forms/",
+    "score": 0.81,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/steps-to-graduate/",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/steps-to-graduate/graduation-application/",
+    "score": 0.79,
+    "performance": 0.59,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admission-aid/testing/",
+    "score": 0.8,
+    "performance": 0.66,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/adult-learners/",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.98,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/international-students/",
+    "score": 0.8,
+    "performance": 0.63,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/international-students/international-students-faqs/",
+    "score": 0.77,
+    "performance": 0.49,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/international-students/steps-to-admissions-for-international-students/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/students-with-undocumented-status/",
+    "score": 0.79,
+    "performance": 0.57,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/transfer-students/",
+    "score": 0.78,
+    "performance": 0.53,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/transfer-students/bridge-to-bachelors-degree/",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/apply/transfer-students/transfer-out/",
+    "score": 0.78,
+    "performance": 0.67,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/apply/transfer-students/transfer-to-cca/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/breadcrumbs-module/",
+    "score": 0.82,
+    "performance": 0.71,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/cards-module/",
+    "score": 0.81,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/cca-tours/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/ccoffy/",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.98,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/colorado-film-school-announcement/",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/contact/",
+    "score": 0.81,
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/contact/connect/",
+    "score": 0.8,
+    "performance": 0.62,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/cta-basic-module/",
+    "score": 0.8,
+    "performance": 0.62,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/dynamic-events/",
+    "score": 0.82,
+    "performance": 0.69,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/dynamic-news/",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.98,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/es/academicos/fechas-importantes/",
+    "score": 0.84,
+    "performance": 0.68,
+    "accessibility": 0.98,
+    "best-practices": 0.79,
+    "seo": 0.92
+  },
+  {
+    "path": "/es/acerca-de-cca/diversidad-equidad-e-inclusion/poblaciones-estudiantiles-unicas/",
+    "score": 0.88,
+    "performance": 0.75,
+    "accessibility": 0.94,
+    "best-practices": 0.96,
+    "seo": 0.85
+  },
+  {
+    "path": "/es/acerca-de-cca/seguridad-del-campus-y-gestion-de-emergencias/informar-de-un-incidente-preocupacion/",
+    "score": 0.88,
+    "performance": 0.66,
+    "accessibility": 0.98,
+    "best-practices": 0.96,
+    "seo": 0.92
+  },
+  {
+    "path": "/es/acreditacion/",
+    "score": 0.96,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 0.96,
+    "seo": 0.92
+  },
+  {
+    "path": "/es/admision-y-ayuda-financiera/ayuda-financiera/caja/matricula-primavera-2023/",
+    "score": 0.91,
+    "performance": 0.79,
+    "accessibility": 0.98,
+    "best-practices": 0.96,
+    "seo": 0.92
+  },
+  {
+    "path": "/pathways/",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.85
+  }
+]

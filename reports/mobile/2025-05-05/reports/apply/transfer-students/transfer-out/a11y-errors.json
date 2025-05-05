@@ -1,0 +1,447 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-H3",
+            "path": "1,HTML,1,BODY,10,MAIN,0,DIV,2,SECTION,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,H3",
+            "selector": "div.cards__grid > article.cards__item > div.cards__item-title > h3.text--h3",
+            "boundingRect": {
+              "top": 1123,
+              "bottom": 1170,
+              "left": 41,
+              "right": 371,
+              "width": 330,
+              "height": 47
+            },
+            "snippet": "<h3 class=\"text--h3\">",
+            "nodeLabel": "BRIDGE TO BACHELORS",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-H5",
+            "path": "1,HTML,1,BODY,10,MAIN,0,DIV,3,SECTION,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,H5",
+            "selector": "div.partner-logos__body > div.partner-logos__body-item > div.partner-logos__body-title > h5.text--h5",
+            "boundingRect": {
+              "top": 3087,
+              "bottom": 3112,
+              "left": 78,
+              "right": 158,
+              "width": 79,
+              "height": 25
+            },
+            "snippet": "<h5 class=\"text--h5\">",
+            "nodeLabel": "MSU DENVER",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-H4",
+            "path": "1,HTML,1,BODY,10,MAIN,0,DIV,7,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div > div.link-group__links-custom > div.link-group__title > h4.text--h4",
+            "boundingRect": {
+              "top": 4893,
+              "bottom": 4919,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 26
+            },
+            "snippet": "<h4 class=\"text--h4\">",
+            "nodeLabel": "TRANSFERS",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-H5",
+            "path": "1,HTML,1,BODY,11,FOOTER,2,DIV,1,SECTION,0,DIV,0,ADDRESS,0,H5",
+            "selector": "section.footer__middle > div.footer__middle-address > address > h5.footer__middle-address--name",
+            "boundingRect": {
+              "top": 5320,
+              "bottom": 5346,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 26
+            },
+            "snippet": "<h5 class=\"footer__middle-address--name text--h4\">",
+            "nodeLabel": "CENTRETECH CAMPUS",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-IMG",
+            "path": "1,HTML,1,BODY,10,MAIN,0,DIV,4,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+            "selector": "div.video-inline__content > div.video-inline__content-left > div.video__background > img",
+            "boundingRect": {
+              "top": 3411,
+              "bottom": 3711,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 300
+            },
+            "snippet": "<img decoding=\"async\" src=\"https://ccaurora.edu/wp-content/uploads/2023/02/hq720.jpg\">",
+            "nodeLabel": "div.video-inline__content > div.video-inline__content-left > div.video__background > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-IMG",
+            "path": "1,HTML,1,BODY,10,MAIN,0,DIV,5,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+            "selector": "div.video-inline__content > div.video-inline__content-left > div.video__background > img",
+            "boundingRect": {
+              "top": 3899,
+              "bottom": 4199,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 300
+            },
+            "snippet": "<img decoding=\"async\" src=\"https://ccaurora.edu/wp-content/uploads/2023/02/hq720-1.jpg\">",
+            "nodeLabel": "div.video-inline__content > div.video-inline__content-left > div.video__background > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "image-redundant-alt",
+    "title": "Image elements have `[alt]` attributes that are redundant text.",
+    "description": "Informative elements should aim for short, descriptive alternative text. Alternative text that is exactly the same as the text adjacent to the link or image is potentially confusing for screen reader users, because the text will be read twice. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-IMG",
+            "path": "1,HTML,1,BODY,9,HEADER,0,DIV,0,DIV,0,A,1,IMG",
+            "selector": "div.header__container > div.header__bar > a.header__bar-logo > img",
+            "boundingRect": {
+              "top": 26,
+              "bottom": 90,
+              "left": 20,
+              "right": 140,
+              "width": 120,
+              "height": 64
+            },
+            "snippet": "<img src=\"https://ccaurora.edu/wp-content/uploads/2025/04/2-CCA-Main-Logo-Grad-Cap.p…\" alt=\"Community College of Aurora\">",
+            "nodeLabel": "Community College of Aurora",
+            "explanation": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "minor",
+        "tags": [
+          "cat.text-alternatives",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,9,HEADER,0,DIV,0,DIV,2,DIV,1,DIV,0,A",
+            "selector": "div.header__bar > div.header__bar-button-container > div.header__bar-button-number > a.header__bar-button",
+            "boundingRect": {
+              "top": 15,
+              "bottom": 36,
+              "left": 262,
+              "right": 389,
+              "width": 127,
+              "height": 21
+            },
+            "snippet": "<a href=\"tel:303-360-4700\" class=\"header__bar-button\" aria-label=\"Contact Us Phone Number\">",
+            "nodeLabel": "Contact Us: 303-360-4700\n303-360-4700",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,10,MAIN,0,DIV,1,HEADER,0,DIV,2,DIV,1,ASIDE,0,DIV,0,NAV,1,DIV,0,UL,1,LI,0,A",
+            "selector": "div.link-group__links > ul.link-group__links-button > li.link-group__links-button--item > a.button--link-group-button",
+            "boundingRect": {
+              "top": 688,
+              "bottom": 741,
+              "left": 20,
+              "right": 392,
+              "width": 372,
+              "height": 53
+            },
+            "snippet": "<a class=\"button--link-group-button\" href=\"https://ccaurora.edu/home/cca-tours/\" target=\"_blank\" aria-label=\"Visit (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Visit \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,10,MAIN,0,DIV,6,SECTION,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.cta-basic__content > div.cta-basic__content-right > div.cta-basic__content-button > a.button",
+            "boundingRect": {
+              "top": 4762,
+              "bottom": 4813,
+              "left": 74,
+              "right": 323,
+              "width": 249,
+              "height": 51
+            },
+            "snippet": "<a class=\"button button--primary\" role=\"button\" href=\"https://ccaurora.elluciancrmrecruit.com/Apply/Account/Create\" target=\"_blank\" aria-label=\"Get Started Today! (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Get Started Today! \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,11,FOOTER,2,DIV,1,SECTION,0,DIV,0,ADDRESS,1,P,0,A",
+            "selector": "div.footer__middle-address > address > p.footer__middle-address--location > a.button--links",
+            "boundingRect": {
+              "top": 5354,
+              "bottom": 5400,
+              "left": 97,
+              "right": 315,
+              "width": 218,
+              "height": 46
+            },
+            "snippet": "<a class=\"button--links\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.google.com/maps/search/?api=1&amp;query=16000%20E.%20CentreTech%20…\" aria-label=\"\n              \n              16000 E. CentreTech Pkwy\nAurora, CO 80011\n  …\">",
+            "nodeLabel": "16000 E. CentreTech Pkwy\nAurora, CO 80011 \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,11,FOOTER,2,DIV,1,SECTION,0,DIV,1,ADDRESS,1,P,0,A",
+            "selector": "div.footer__middle-address > address > p.footer__middle-address--location > a.button--links",
+            "boundingRect": {
+              "top": 5504,
+              "bottom": 5550,
+              "left": 120,
+              "right": 292,
+              "width": 171,
+              "height": 46
+            },
+            "snippet": "<a class=\"button--links\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.google.com/maps/search/?api=1&amp;query=710%20Alton%20Way%0D%0ADen…\" aria-label=\"\n              \n              710 Alton Way\nDenver, CO 80230\n             …\">",
+            "nodeLabel": "710 Alton Way\nDenver, CO 80230 \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,11,FOOTER,2,DIV,2,SECTION,1,DIV,0,NAV,0,UL,2,LI,0,A",
+            "selector": "nav > ul > li > a.button--links",
+            "boundingRect": {
+              "top": 5755,
+              "bottom": 5778,
+              "left": 20,
+              "right": 101,
+              "width": 81,
+              "height": 23
+            },
+            "snippet": "<a class=\"button--links\" href=\"https://bannercas.cccs.edu/authenticationendpoint/login.do?Name=PreLoginRe…\" target=\"_blank\" aria-label=\"\n                Banner\n               (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "Banner \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,11,FOOTER,2,DIV,2,SECTION,1,DIV,0,NAV,0,UL,6,LI,0,A",
+            "selector": "nav > ul > li > a.button--links",
+            "boundingRect": {
+              "top": 6027,
+              "bottom": 6050,
+              "left": 20,
+              "right": 154,
+              "width": 134,
+              "height": 23
+            },
+            "snippet": "<a class=\"button--links\" href=\"https://myportal.cccs.edu/CCA\" target=\"_blank\" aria-label=\"\n                MyCCA Login\n               (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "MyCCA Login \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,11,FOOTER,2,DIV,2,SECTION,1,DIV,0,NAV,0,UL,9,LI,0,A",
+            "selector": "nav > ul > li > a.button--links",
+            "boundingRect": {
+              "top": 6231,
+              "bottom": 6254,
+              "left": 20,
+              "right": 234,
+              "width": 214,
+              "height": 23
+            },
+            "snippet": "<a class=\"button--links\" href=\"https://www.wrike.com/form/eyJhY2NvdW50SWQiOjU5MTMxOTcsInRhc2tGb3JtSWQiOjI…\" target=\"_blank\" aria-label=\"\n                MyCCA Feedback Form\n               (opens in a new window)\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "MyCCA Feedback Form \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,11,FOOTER,3,SECTION,0,DIV,0,NAV,2,UL,0,LI,0,A",
+            "selector": "nav.copyright__nav > ul > li > a.button--links",
+            "boundingRect": {
+              "top": 6836,
+              "bottom": 6849,
+              "left": 116,
+              "right": 296,
+              "width": 180,
+              "height": 13
+            },
+            "snippet": "<a class=\"button--links\" style=\"font-size:10px;color:#B84954;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fireantstudio.com/\" aria-label=\"Site Design by FIREANT STUDIO (opens in a new window)\">",
+            "nodeLabel": "Site Design by FIREANT STUDIO \n(opens in a new window)",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 9
+  }
+]
